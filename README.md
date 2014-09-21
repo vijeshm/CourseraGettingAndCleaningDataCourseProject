@@ -10,8 +10,9 @@ Instructions to run the code:
 Detailed working of run_analysis.R
 ==================================
 (Reference: https://class.coursera.org/getdata-007/forum/thread?thread_id=28#comment-245)
+
 1. The training data and the test data needs to be merged into complete dataset.
-1.1 Create a list-mapping between index and activities measured in the dataset. This information is present in the file activity_labels.txt. To make the merging approach generic, read all the lines from the file and create a list-mapping called 'activityLabels'.
+1.1. Create a list-mapping between index and activities measured in the dataset. This information is present in the file activity_labels.txt. To make the merging approach generic, read all the lines from the file and create a list-mapping called 'activityLabels'.
 1.2. Create a list-mapping between index and features measured in the dataset. There are 561 features being measued and the mapping information is captured in the file features.txt. To make the merging approach generic, read all the lines from the file and create a list-mapping called 'featureLabels'.
 1.3. Read the X, Y and Subject information in the training the dataset. 
 1.3.1 'train/X_train.txt' consists of the feature observations. Save it as a character vector in a variable 'trainingFeatureVectorsFile'. This character vector will be converted to a numeric at a later point of time.
