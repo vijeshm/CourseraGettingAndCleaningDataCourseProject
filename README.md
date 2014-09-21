@@ -7,8 +7,9 @@ Instructions to run the code:
 * Source the 'run_analysis.R'
 * The tidy dataset is written onto a text file called 'tidyData.txt'
 
-Detailed working of run_analysis.R (Reference: https://class.coursera.org/getdata-007/forum/thread?thread_id=28#comment-245)
-===============================
+Detailed working of run_analysis.R
+==================================
+(Reference: https://class.coursera.org/getdata-007/forum/thread?thread_id=28#comment-245)
 1. The training data and the test data needs to be merged into complete dataset.
 	a. Create a list-mapping between index and activities measured in the dataset. This information is present in the file activity_labels.txt. To make the merging approach generic, read all the lines from the file and create a list-mapping called 'activityLabels'.
 	b. Create a list-mapping between index and features measured in the dataset. There are 561 features being measued and the mapping information is captured in the file features.txt. To make the merging approach generic, read all the lines from the file and create a list-mapping called 'featureLabels'.
