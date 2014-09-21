@@ -106,3 +106,5 @@ names(tidyData) = names(meanStdDataFrame)
 for(activitySubjectMeans in summarizedData) {
         tidyData <- rbind(tidyData, activitySubjectMeans[1, ])
 }
+
+write.table(tidyData, "tidyData.txt", row.names=FALSE)
